@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>かたちのちょうさ</title>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+                     "BIZ UDPGothic", "Meiryo", sans-serif;
+        background: #f8f8f6;
+        color: #1a1a1a;
+        min-height: 100vh;
+      }
+      #root { min-height: 100vh; }
+
+      /* CSS変数（Claudeアーティファクトと揃える） */
+      :root {
+        --font-sans: "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+                     "BIZ UDPGothic", "Meiryo", sans-serif;
+        --color-text-primary:     #1a1a1a;
+        --color-text-secondary:   #666666;
+        --color-background-primary:   #ffffff;
+        --color-background-secondary: #f3f3f1;
+        --color-border-secondary:  #d0d0cc;
+        --color-border-tertiary:   #e0e0dc;
+        --border-radius-md:  8px;
+        --border-radius-lg: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
