@@ -178,10 +178,6 @@ export default function App() {
     <div style={S.wrap}>
       <p style={S.sub}>かたちのちょうさ（2問）</p>
       <h1 style={S.h1}>これから　かたちの　もんだいを　します。</h1>
-      <p style={S.body}>
-        みぎの　かたちと　<strong>おなじ　かたち</strong>を　ぜんぶ　えらんで　ください。<br/>
-        むきが　ちがっても、かたちが　おなじなら　えらびましょう。
-      </p>
 
       <p style={{ ...S.sub, marginBottom:8 }}>なんねんせい？</p>
       <div style={{ display:"grid", gridTemplateColumns:"repeat(6,1fr)", gap:8, marginBottom:"1.25rem" }}>
@@ -228,14 +224,11 @@ export default function App() {
       </div>
       <p style={S.sub}>もんだい①　三角形</p>
       <p style={S.body}>
-        みぎの　かたちと　<strong>おなじ　かたち</strong>を　ぜんぶ　えらんで　ください。<br/>
+        したの　かたちと　<strong>おなじ　かたち</strong>を　ぜんぶ　えらんで　ください。<br/>
         <span style={{ fontSize:13 }}>（むきが　ちがっても　おなじ　かたちなら　えらびましょう）</span>
       </p>
 
       <div style={S.sample}>
-        <span style={{ fontSize:12, color:"var(--color-text-secondary)", marginBottom:10 }}>
-          ▶ みぎの　かたち
-        </span>
         <Shape pts={TRI_SAMPLE} size={80} />
       </div>
 
@@ -269,14 +262,11 @@ export default function App() {
       </div>
       <p style={S.sub}>もんだい②　四角形</p>
       <p style={S.body}>
-        みぎの　かたちと　<strong>おなじ　かたち</strong>を　ぜんぶ　えらんで　ください。<br/>
+        したの　かたちと　<strong>おなじ　かたち</strong>を　ぜんぶ　えらんで　ください。<br/>
         <span style={{ fontSize:13 }}>（むきが　ちがっても　おなじ　かたちなら　えらびましょう）</span>
       </p>
 
       <div style={S.sample}>
-        <span style={{ fontSize:12, color:"var(--color-text-secondary)", marginBottom:10 }}>
-          ▶ みぎの　かたち
-        </span>
         <Shape pts={QUAD_SAMPLE} size={80} />
       </div>
 
